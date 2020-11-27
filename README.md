@@ -8,13 +8,7 @@ ada-2020-project-milestone-p3-p3_xuehuapiaopiao created by GitHub Classroom
 
 2. ### Abstract 
 
-   Recently, there are many researches assessing the racial disparities in policing in the United States, revealing the unfair treatment the minority drivers have faced. The reasons for such phenomenon might be various: racial discrimination, finance, crime rate, political power, etc. In this project, we will draw attention to political power and test its role in racial disparities. Specifically, we will first measure the political power of a group through its presence, voice and representation in politics. Through factor analysis (comment 1) we evaluate the political power quantitatively. Then by comparing stop/search rates with regard to the political power(comment 2), we expect to find evidence that political power has a significant influence on police’s behavior. Finally, we expect to find that after Obama won the election in 2014 and became the president of America, the inequalities in policing reduced a lot. / Finally, we compare black group with Asian group (comment 3). Our results indicate that political power plays an important role in the racial disparities in policing.
-
-   comment 1: 此处应为 衡量政治力量所用的方法，如factor analysis等
-
-   comment 2: 此处应为 分析political power与racial disparities相关性用到的方法 
-
-   comment 3: 第三个小任务，选择分析obama上台的影响，或者比较一下黑人和黄种人群体在traffic stop和political power上的差异。（两者选一个）
+   Recently, there are many researches assessing the racial disparities in policing in the United States, revealing the unfair treatment the minority drivers have faced. The reasons for such phenomenon might be various: racial discrimination, finance, crime rate, political power, etc. In this project, we will draw attention to political power and test its role in racial disparities. Specifically, we will first measure the political power of a group through its presence, voice and representation in politics. Through factor analysis we evaluate the political power quantitatively. Then by comparing stop/search rates with regard to the political power, we expect to find evidence that political power has a significant influence on police’s behavior. Finally, we try to analyze the effect of Obama’s victory in the president election of 2014, after which the inequalities in policing are expected to reduce.
 
 3. ### Research Questions
 
@@ -26,9 +20,14 @@ ada-2020-project-milestone-p3-p3_xuehuapiaopiao created by GitHub Classroom
 
 4. ### Proposed dataset 
 
-   We mainly use the dataset released by the original paper, available at [https://openpolicing.stanford.edu.](https://openpolicing.stanford.edu.) Moreover, we measure the political power by three aspects: 1) percentage of the population that is black; 2) percentage of the voting population that is black; and 3) percentage of the local elected government that is black. 
+   For policing stops, we mainly use the dataset released by the original paper, available at [https://openpolicing.stanford.edu](https://openpolicing.stanford.edu). Thanks to the Open Policing Project, we get the raw data of almost the whole country.
+
+   Moreover, we measure the political power in three aspects: 
+   1) Presence, defined as the percentage of the population that is black, dataset available at [here](https://www.census.gov/topics/population/data.html); 
+   2) Voice, defined as percentage of the voting population that is black, dataset available at [here](https://www.kesci.com/mw/dataset/5f894f59e48a3f0030286e2f); 
+   3) Representation, as percentage of the local elected government that is black, dataset available at [here](https://www.kaggle.com/jerimee/north-carolina-voter-file?select=ncvhis_Statewide). 
    
-   Thanks to the Open Policing Project. We get the raw data of almost the whole country. At this stage, we choose the 'State Patrol' dataset from WA to conduct further analysis. (We might change or enlarge our dataset to perfect our project in the future.) From this data set, we can get the races of the officers and their corresponding stop records. We divide the 'officer_race' feature into four categories, which are black, Hispanic, white, and other. Next, we did a preliminary analysis of the data, delete rows with missing critical data; delete data rows with apparent errors.
+   Note that we have referenced the eighth charpter in [1].
 
 5. ### Methods
 
@@ -64,3 +63,6 @@ ada-2020-project-milestone-p3-p3_xuehuapiaopiao created by GitHub Classroom
 8. ### Questions for TAs
 
     None at this stage. But we are more than delighted to have some suggestions to enrich our project and make it more meaningful to the practical world.
+
+### Reference
+[1] Baumgartner, F.R., Epp, D.A. & Shoub, K. Suspect Citizens: What 20 Million Trafc Stops Tell Us about Policing and Race (Cambridge Univ. Press, 2018)
