@@ -20,12 +20,12 @@ ada-2020-project-milestone-p3-p3_xuehuapiaopiao created by GitHub Classroom
 
 4. ### Proposed dataset 
 
-   For policing stops, we mainly use the dataset released by the original paper, available at [https://openpolicing.stanford.edu](https://openpolicing.stanford.edu). Thanks to the Open Policing Project, we get the raw data of almost the whole country.
+   For policing stops, we mainly use the dataset released by the original paper, available at [https://openpolicing.stanford.edu](https://openpolicing.stanford.edu). Thanks to the Open Policing Project, we are able to use the raw data of almost the whole country.
 
    Moreover, we measure the political power in three aspects: 
    1) Presence, defined as the percentage of the population that is black, dataset available at [here](https://www.census.gov/topics/population/data.html); 
    2) Voice, defined as percentage of the voting population that is black, dataset available at [here](https://www.kesci.com/mw/dataset/5f894f59e48a3f0030286e2f); 
-   3) Representation, as percentage of the local elected government that is black, dataset available at [here](https://www.kaggle.com/jerimee/north-carolina-voter-file?select=ncvhis_Statewide). 
+   3) Representation, defined as percentage of the local elected government that is black, dataset available at [here](https://www.kaggle.com/jerimee/north-carolina-voter-file?select=ncvhis_Statewide). 
    
    Note that we have referenced the eighth charpter in [1].
 
