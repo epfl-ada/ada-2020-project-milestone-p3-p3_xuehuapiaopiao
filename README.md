@@ -24,8 +24,9 @@ ada-2020-project-milestone-p3-p3_xuehuapiaopiao created by GitHub Classroom
 
 4. ### Proposed dataset 
 
-   We mainly use the dataset released by the original paper, available at [https://openpolicing.stanford.edu.*](https://openpolicing.stanford.edu.) Moreover, we measure the political power by three aspects: 1) percentage of the population that is black; 2) percentage of the voting population that is black; and 3) percentage of the local elected government that is black. 
-   Thanks to the Open Policing Project(https://openpolicing.stanford.edu/data/). We get the raw data of almost the whole country. At this stage, we choose the 'State Patrol' dataset from WA to conduct further analysis. (We might change or enlarge our dataset to perfect our project in the future.) From this data set, we can get the races of the officers and their corresponding stop records. We divide the 'officer_race' feature into four categories, which are black, Hispanic, white, and other. Next, we did a preliminary analysis of the data, delete rows with missing critical data; delete data rows with apparent errors.
+   We mainly use the dataset released by the original paper, available at [https://openpolicing.stanford.edu.](https://openpolicing.stanford.edu.) Moreover, we measure the political power by three aspects: 1) percentage of the population that is black; 2) percentage of the voting population that is black; and 3) percentage of the local elected government that is black. 
+   
+   Thanks to the Open Policing Project. We get the raw data of almost the whole country. At this stage, we choose the 'State Patrol' dataset from WA to conduct further analysis. (We might change or enlarge our dataset to perfect our project in the future.) From this data set, we can get the races of the officers and their corresponding stop records. We divide the 'officer_race' feature into four categories, which are black, Hispanic, white, and other. Next, we did a preliminary analysis of the data, delete rows with missing critical data; delete data rows with apparent errors.
 
 5. ### Methods
 
