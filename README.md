@@ -19,7 +19,9 @@ ada-2020-project-milestone-p3-p3_xuehuapiaopiao created by GitHub Classroom
 3. ### Research Questions
 
    (1)     How to measure the political power of a group?
+   
    (2)     To what extent does the political power affect racial disparities in traffic stops?
+   
    (3)     How did the election of President Obama impact the racial disparities in traffic stops?
 
 4. ### Proposed dataset 
