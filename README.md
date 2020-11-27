@@ -33,6 +33,8 @@ ada-2020-project-milestone-p3-p3_xuehuapiaopiao created by GitHub Classroom
    Through factor analysis, we evaluate the political power quantitatively. Factor analysis is to use a few potential variables to explain the complex relationships that exist in observable variables. In other words, factor analysis breaks down each original (observable) variable into two parts, one of which consists of a few common factors shared by all variables; The other part is the so-called special factor part, which is the existence of a special factor that distinguishes a variable from other variables.
 
    There are many methods of factor extraction, most of which is principal component analysis(PCA). There are also other methods, such as the least Squares, Maximum Likelihood, Alpha Factoring, Image factoring, etc. In the future, we will consider the characteristic of our dataset, to test and choose the proper method. 
+   
+   Then in the part of regression analysis, we can compare the performance among different methods, such as maximum likelihood, gradient descent, and logistic. After that, we choose the best model to conduct further interpretation of our results. Comparing stop/search rates related to political power, we hope to discover that political power has a significant influence on the police’s behavior.
 
 6. ### Proposed timeline
 
